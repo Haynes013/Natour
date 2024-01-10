@@ -1,0 +1,33 @@
+/*
+COLORS:
+
+Light lime: #84cc16
+Medium yellow: #a16207
+Dark amber: #92400e
+
+*/
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+.header {
+  height: 90vh;
+  background-image: linear-gradient(to top left, #92410ebf, #83cc1689),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
+}
